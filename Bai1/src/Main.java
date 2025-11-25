@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String mode = sc.nextLine().trim(); // 'e' hoặc 'd'
-        int key = Integer.parseInt(sc.nextLine().trim()); // 1 - 255
+        String mode = sc.nextLine().trim(); 
+        int key = Integer.parseInt(sc.nextLine().trim()); 
         String text = sc.nextLine();
 
         StringBuilder result = new StringBuilder();
